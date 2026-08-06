@@ -21,4 +21,6 @@ COPY --from=build /geoip-auth /geoip-auth
 
 EXPOSE 8080
 
+# sdgdsgsd
+
 ENTRYPOINT ["/geoip-auth"]
